@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fafafa"
+    android:orientation="vertical"
+    tools:context=".MyPageActivity">
+    <!--background 추가-->
+
+    <!--    이름 아래버튼 메뉴버튼 시작-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="12dp">
+        <!--        수평 전개-->
+        <TextView
+            style="@style/TextStyle2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="6dp"
+            tools:text="Gilbert" />
+        <!--       style 적용 -->
+
+        <ImageView
+            android:layout_width="12dp"
+            android:layout_height="21dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_menu_down" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:layout_width="21dp"
+            android:layout_height="21dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_menu" />
+    </LinearLayout>
+    <!--    이름 아래버튼 메뉴버튼 끝-->
+
+    <!--  프로필 사진 게시물 팔로워 팔로잉 시작 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="6dp"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            app:cardCornerRadius="35dp"
+            app:cardElevation="0dp">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/ic_launcher_background" />
+        </androidx.cardview.widget.CardView>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <!--        게시물 시작-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="8dp"
+                android:lineSpacingExtra="2.3sp"
+                android:textColor="#000000"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                tools:text="412" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:lineSpacingExtra="2.3sp"
+                android:textColor="#000000"
+                android:textSize="12sp"
+                android:textStyle="normal"
+                tools:text="게시물" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+        <!--        게시물 끝-->
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+        <!--        팔로워 시작-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="8dp"
+                android:lineSpacingExtra="2.3sp"
+                android:textColor="#000000"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                tools:text="412" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:lineSpacingExtra="2.3sp"
+                android:textColor="#000000"
+                android:textSize="12sp"
+                android:textStyle="normal"
+                tools:text="게시물" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+        <!--        팔로워 끝-->
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+        <!--        팔로잉 시작-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="8dp"
+                android:lineSpacingExtra="2.3sp"
+                android:textColor="#000000"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                tools:text="412" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:lineSpacingExtra="2.3sp"
+                android:textColor="#000000"
+                android:textSize="12sp"
+                android:textStyle="normal"
+                tools:text="게시물" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+        <!--        팔로잉 끝-->
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+    </LinearLayout>
+    <!--  프로필 사진 게시물 팔로워 팔로잉 끜 -->
+    <!--  이름 시작 -->
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:gravity="center"
+        android:lineSpacingExtra="2.3sp"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        android:textStyle="normal"
+        tools:text="Gilbert Park" />
+    <!--  이름 끝 -->
+
+    <!--    프로필 수정 시작-->
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:layout_margin="12dp"
+        android:background="@drawable/ic_background_profile_edit"
+        android:gravity="center"
+        android:lineSpacingExtra="2.3sp"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        android:textStyle="normal"
+        tools:text="프로필 수정" />
+    <!--    프로필 수정 끝-->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="18dp"
+        android:background="@color/color_light_gray" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_grid" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="2" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_person" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+</LinearLayout>

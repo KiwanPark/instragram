@@ -7,40 +7,206 @@
     android:orientation="vertical"
     tools:context=".LoginActivity">
 
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/baby_names"
-        android:textStyle="normal"
         android:layout_gravity="center"
         android:layout_marginBottom="20dp"
-        android:textSize="40sp"
-        android:textColor="#000000"
+        android:fontFamily="@font/baby_names"
         android:lineSpacingExtra="16sp"
-        android:text="Instagram"/>
+        android:text="Instagram"
+        android:textColor="#000000"
+        android:textSize="40sp"
+        android:textStyle="normal" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="40dp"
-        android:paddingLeft="10dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
-        android:inputType="textWebEmailAddress"
         android:layout_marginBottom="10dp"
+        android:background="@drawable/bg_logintext"
         android:hint="아이디(이메일)"
-        android:background="@drawable/bg_logintext"
-        />
+        android:inputType="textWebEmailAddress"
+        android:paddingLeft="10dp" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="40dp"
-        android:paddingLeft="10dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
-        android:inputType="textPassword"
         android:layout_marginBottom="10dp"
-        android:hint="비밀번(8자 이상)"
         android:background="@drawable/bg_logintext"
-        />
+        android:hint="비밀번(8자 이상)"
+        android:inputType="textPassword"
+        android:paddingLeft="10dp" />
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/bh_loginbutton"
+        android:gravity="center"
+        android:lineSpacingExtra="2sp"
+        android:textColor="@color/light_blue_grey"
+        android:textSize="14sp"
+        android:textStyle="normal"
+        android:text="로그인" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="4dp"
+            android:lineSpacingExtra="1.3sp"
+            android:textColor="#979797"
+            android:textSize="10sp"
+            android:textStyle="normal"
+            android:text="로그인 상세 정보를 잊으셨나요? " />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="1.3sp"
+            android:textColor="#000000"
+            android:textSize="10sp"
+            android:textStyle="normal"
+            android:text="비밀번호 찾기" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:background="#979797" />
+
+        <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:lineSpacingExtra="1.3sp"
+            android:textColor="#979797"
+            android:textSize="10sp"
+            android:textStyle="normal"
+            android:text="또는" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:background="#979797" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="4dp"
+            android:src="@drawable/f_logo_rgb_hex_blue_512" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="1.3sp"
+            android:textColor="#1877f2"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            android:text="Facebook으로 로그인" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#979797" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="4dp"
+            android:lineSpacingExtra="1.3sp"
+            android:textColor="#979797"
+            android:layout_gravity="center"
+            android:textSize="10sp"
+            android:textStyle="normal"
+            android:text="계정이 없으신가요?" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="1.3sp"
+            android:textColor="#000000"
+            android:textSize="10sp"
+            android:textStyle="normal"
+            android:layout_gravity="center"
+            android:text="가입하기" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
 </LinearLayout>
