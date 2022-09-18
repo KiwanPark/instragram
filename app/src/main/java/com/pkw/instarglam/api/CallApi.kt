@@ -23,10 +23,11 @@ class CallApi {
         .client(client)
         .build()
 
-    fun loadAlbum() {
-        retrofit.create(Api::class.java).album().enqueue(object : Callback<AlbumData>{
+    fun loadAlbum(callback: (ArrayList<AlbumData.Data>) -> Unit) {
+        retrofit.create(Api::class.java).album().enqueue(object : Callback<AlbumData> {
             override fun onResponse(call: Call<AlbumData>, response: Response<AlbumData>) {
                 Log.e("res", response.body()?.data.toString())
+                callback(response.body()?.data as ArrayList<AlbumData.Data>)
             }
 
             override fun onFailure(call: Call<AlbumData>, t: Throwable) {
