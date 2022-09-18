@@ -22,35 +22,35 @@ class DemandActivity : AppCompatActivity() {
     private fun setData() {
         demendDatas.add(
             DemandData(
-                "",
+                "https://picsum.photos/id/102/200/300",
                 "Hong",
                 "길동"
             )
         )
         demendDatas.add(
             DemandData(
-                "",
+                "https://picsum.photos/id/192/200/300",
                 "Go",
                 "길동"
             )
         )
         demendDatas.add(
             DemandData(
-                "",
+                "https://picsum.photos/id/152/200/300",
                 "Dul",
                 "리"
             )
         )
         demendDatas.add(
             DemandData(
-                "",
+                "https://picsum.photos/id/193/200/300",
                 "Dou",
                 "너"
             )
         )
         demendDatas.add(
             DemandData(
-                "",
+                "https://picsum.photos/id/195/200/300",
                 "TTO",
                 "치"
             )
