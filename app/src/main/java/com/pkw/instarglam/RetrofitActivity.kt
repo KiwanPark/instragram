@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.pkw.instarglam.api.AlbumData
+import com.pkw.instarglam.api.CallApi
 import com.pkw.instarglam.databinding.ActivityRetrofitBinding
 
 class RetrofitActivity : AppCompatActivity() {
@@ -58,5 +59,6 @@ class RetrofitActivity : AppCompatActivity() {
             )
         )
         adapter.setData(datas)
+        CallApi().loadAlbum()
     }
 }
