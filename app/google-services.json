@@ -1,0 +1,375 @@
+{
+  "project_info": {
+    "project_number": "433140217678",
+    "firebase_url": "https://findpcroom-db5a5.firebaseio.com",
+    "project_id": "findpcroom-db5a5",
+    "storage_bucket": "findpcroom-db5a5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:433140217678:android:0db9b0f19d00c4684e101f",
+        "android_client_info": {
+          "package_name": "com.mycompany.findpcroom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "433140217678-oo83tkoro076ona1396m74ln56q62rh4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQiwL4O54xkihE_NoJJbNAliUSDz7qfPE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "433140217678-oo83tkoro076ona1396m74ln56q62rh4.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "433140217678-26d8opsjj8oebdsoqlpl91pfl0t9on9o.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.s2d5.FindPcroom"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:433140217678:android:38993d4a3a4c182b4e101f",
+        "android_client_info": {
+          "package_name": "com.pkw.findpcroom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "433140217678-oo83tkoro076ona1396m74ln56q62rh4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQiwL4O54xkihE_NoJJbNAliUSDz7qfPE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "433140217678-oo83tkoro076ona1396m74ln56q62rh4.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "433140217678-26d8opsjj8oebdsoqlpl91pfl0t9on9o.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.s2d5.FindPcroom"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:433140217678:android:ddfe95d17f37887a4e101f",
+        "android_client_info": {
+          "package_name": "com.pkw.instarglam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "433140217678-oo83tkoro076ona1396m74ln56q62rh4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQiwL4O54xkihE_NoJJbNAliUSDz7qfPE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "433140217678-oo83tkoro076ona1396m74ln56q62rh4.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "433140217678-26d8opsjj8oebdsoqlpl91pfl0t9on9o.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.s2d5.FindPcroom"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:433140217678:android:7479a556eaa582634e101f",
+        "android_client_info": {
+          "package_name": "com.s2d5.dynamiclink"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "433140217678-uvkooqimopeu0cs3n125bd14l2qeh04s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.s2d5.dynamiclink",
+            "certificate_hash": "58ce409a5033b8f92f0bf4c977f4c949b4fa7868"
+          }
+        },
+        {
+          "client_id": "433140217678-oo83tkoro076ona1396m74ln56q62rh4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQiwL4O54xkihE_NoJJbNAliUSDz7qfPE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "433140217678-oo83tkoro076ona1396m74ln56q62rh4.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "433140217678-26d8opsjj8oebdsoqlpl91pfl0t9on9o.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.s2d5.FindPcroom"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:433140217678:android:3cb0950a5b1371ae4e101f",
+        "android_client_info": {
+          "package_name": "com.s2d5.findpcoom202207"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "433140217678-fmavftbcv2u610e8mugah02amdtap7l0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.s2d5.findpcoom202207",
+            "certificate_hash": "99b186639bb457190542aa14a497cb97d92bc8e9"
+          }
+        },
+        {
+          "client_id": "433140217678-oo83tkoro076ona1396m74ln56q62rh4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQiwL4O54xkihE_NoJJbNAliUSDz7qfPE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "433140217678-oo83tkoro076ona1396m74ln56q62rh4.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "433140217678-26d8opsjj8oebdsoqlpl91pfl0t9on9o.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.s2d5.FindPcroom"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:433140217678:android:97dede5c86e315cc4e101f",
+        "android_client_info": {
+          "package_name": "com.s2d5.findpcroom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "433140217678-95v3f3vsrhb4i0r0s590b0131iulb26k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.s2d5.findpcroom",
+            "certificate_hash": "b6b4d594de70099d1456fd6f57e246555b1372fe"
+          }
+        },
+        {
+          "client_id": "433140217678-ahrojg9n3meahvud7ggkfqmjurc8fbbm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.s2d5.findpcroom",
+            "certificate_hash": "ebd5f2f4d8833c5c252dbb702ffe8fd6f0b994fe"
+          }
+        },
+        {
+          "client_id": "433140217678-oo83tkoro076ona1396m74ln56q62rh4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQiwL4O54xkihE_NoJJbNAliUSDz7qfPE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "433140217678-oo83tkoro076ona1396m74ln56q62rh4.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "433140217678-26d8opsjj8oebdsoqlpl91pfl0t9on9o.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.s2d5.FindPcroom"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:433140217678:android:d1c12c4b497f2bb54e101f",
+        "android_client_info": {
+          "package_name": "com.s2d5.findpcroom_202105"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "433140217678-oo83tkoro076ona1396m74ln56q62rh4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQiwL4O54xkihE_NoJJbNAliUSDz7qfPE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "433140217678-oo83tkoro076ona1396m74ln56q62rh4.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "433140217678-26d8opsjj8oebdsoqlpl91pfl0t9on9o.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.s2d5.FindPcroom"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:433140217678:android:8ce426d9223b012a4e101f",
+        "android_client_info": {
+          "package_name": "com.s2d5.firdpcroom_2021_08"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "433140217678-639v2rtu3hkhhlnqvg7fs25lk91cev08.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.s2d5.firdpcroom_2021_08",
+            "certificate_hash": "b6b4d594de70099d1456fd6f57e246555b1372fe"
+          }
+        },
+        {
+          "client_id": "433140217678-oo83tkoro076ona1396m74ln56q62rh4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQiwL4O54xkihE_NoJJbNAliUSDz7qfPE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "433140217678-oo83tkoro076ona1396m74ln56q62rh4.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "433140217678-26d8opsjj8oebdsoqlpl91pfl0t9on9o.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.s2d5.FindPcroom"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:433140217678:android:c107d1725c77ee3d4e101f",
+        "android_client_info": {
+          "package_name": "com.univ.findpcroom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "433140217678-oo83tkoro076ona1396m74ln56q62rh4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQiwL4O54xkihE_NoJJbNAliUSDz7qfPE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "433140217678-oo83tkoro076ona1396m74ln56q62rh4.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "433140217678-26d8opsjj8oebdsoqlpl91pfl0t9on9o.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.s2d5.FindPcroom"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -36,4 +36,21 @@ class CallApi {
 
         })
     }
+
+    fun loadAlbumInfo(id:String, callback:(AlbumItemResponse.Data) -> Unit ) {
+        retrofit.create(Api::class.java).albumItem(id).enqueue(object : Callback<AlbumItemResponse>{
+            override fun onResponse(
+                call: Call<AlbumItemResponse>,
+                response: Response<AlbumItemResponse>
+            ) {
+                Log.e("loadAlbumInfo", response.body()?.data.toString())
+                callback(response.body()?.data!!)
+            }
+
+            override fun onFailure(call: Call<AlbumItemResponse>, t: Throwable) {
+
+            }
+
+        })
+    }
 }
